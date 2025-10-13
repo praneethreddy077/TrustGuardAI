@@ -1,0 +1,16 @@
+# env & IDE
+.env
+.vscode/
+*.pyc
+__pycache__/
+
+# data & outputs
+data/
+results_text/
+models/*/*.npy
+models/*/viz/
+
+# big model weights
+models/image_model/*.pt
+models/text_model/*.pt
+models/text_model_buzzfeed/pytorch_model.bin
